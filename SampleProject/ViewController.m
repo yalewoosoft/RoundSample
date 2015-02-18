@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 Woo Soft. All rights reserved.
 //
 
-#import "RoundViewController.h"
+#import "ViewController.h"
 
-@interface RoundViewController : ViewController
+@interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *ValueEntry;
 @property (weak, nonatomic) IBOutlet UITextField *ResultEntry;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *Selection;
@@ -16,7 +16,7 @@
 
 @end
 
-@implementation RoundViewController
+@implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

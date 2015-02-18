@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C832E09A1A944F4A00287F7C /* Round.png in Resources */ = {isa = PBXBuildFile; fileRef = C832E0971A944F4A00287F7C /* Round.png */; };
-		C832E09B1A944F4A00287F7C /* Square.png in Resources */ = {isa = PBXBuildFile; fileRef = C832E0981A944F4A00287F7C /* Square.png */; };
-		C832E09C1A944F4A00287F7C /* Triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = C832E0991A944F4A00287F7C /* Triangle.png */; };
 		C86336E21A94415400CF75AF /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C86336E11A94415400CF75AF /* AboutViewController.m */; };
 		C8FF0CE01A93303E00255BAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FF0CDF1A93303E00255BAB /* main.m */; };
 		C8FF0CE31A93303E00255BAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FF0CE21A93303E00255BAB /* AppDelegate.m */; };
-		C8FF0CE61A93303E00255BAB /* RoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FF0CE51A93303E00255BAB /* RoundViewController.m */; };
+		C8FF0CE61A93303E00255BAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FF0CE51A93303E00255BAB /* ViewController.m */; };
 		C8FF0CE91A93303E00255BAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8FF0CE71A93303E00255BAB /* Main.storyboard */; };
 		C8FF0CEB1A93303E00255BAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8FF0CEA1A93303E00255BAB /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -29,9 +26,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C832E0971A944F4A00287F7C /* Round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Round.png; sourceTree = "<group>"; };
-		C832E0981A944F4A00287F7C /* Square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Square.png; sourceTree = "<group>"; };
-		C832E0991A944F4A00287F7C /* Triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Triangle.png; sourceTree = "<group>"; };
 		C86336E01A94415400CF75AF /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		C86336E11A94415400CF75AF /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		C8FF0CDA1A93303E00255BAB /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,8 +33,8 @@
 		C8FF0CDF1A93303E00255BAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8FF0CE11A93303E00255BAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8FF0CE21A93303E00255BAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C8FF0CE41A93303E00255BAB /* RoundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundViewController.h; sourceTree = "<group>"; };
-		C8FF0CE51A93303E00255BAB /* RoundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundViewController.m; sourceTree = "<group>"; };
+		C8FF0CE41A93303E00255BAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C8FF0CE51A93303E00255BAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C8FF0CE81A93303E00255BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C8FF0CEA1A93303E00255BAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C8FF0CF31A93303E00255BAB /* SampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,16 +58,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C8C93C5C1A944CDC00AAE89D /* Image Files */ = {
-			isa = PBXGroup;
-			children = (
-				C832E0971A944F4A00287F7C /* Round.png */,
-				C832E0981A944F4A00287F7C /* Square.png */,
-				C832E0991A944F4A00287F7C /* Triangle.png */,
-			);
-			name = "Image Files";
-			sourceTree = "<group>";
-		};
 		C8FF0CD11A93303E00255BAB = {
 			isa = PBXGroup;
 			children = (
@@ -96,13 +80,12 @@
 			children = (
 				C8FF0CE11A93303E00255BAB /* AppDelegate.h */,
 				C8FF0CE21A93303E00255BAB /* AppDelegate.m */,
-				C8FF0CE41A93303E00255BAB /* RoundViewController.h */,
-				C8FF0CE51A93303E00255BAB /* RoundViewController.m */,
+				C8FF0CE41A93303E00255BAB /* ViewController.h */,
+				C8FF0CE51A93303E00255BAB /* ViewController.m */,
 				C8FF0CE71A93303E00255BAB /* Main.storyboard */,
 				C86336E01A94415400CF75AF /* AboutViewController.h */,
 				C86336E11A94415400CF75AF /* AboutViewController.m */,
 				C8FF0CEA1A93303E00255BAB /* Images.xcassets */,
-				C8C93C5C1A944CDC00AAE89D /* Image Files */,
 				C8FF0CDD1A93303E00255BAB /* Supporting Files */,
 			);
 			path = SampleProject;
@@ -198,9 +181,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8FF0CE91A93303E00255BAB /* Main.storyboard in Resources */,
-				C832E09C1A944F4A00287F7C /* Triangle.png in Resources */,
-				C832E09A1A944F4A00287F7C /* Round.png in Resources */,
-				C832E09B1A944F4A00287F7C /* Square.png in Resources */,
 				C8FF0CEB1A93303E00255BAB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8FF0CE61A93303E00255BAB /* RoundViewController.m in Sources */,
+				C8FF0CE61A93303E00255BAB /* ViewController.m in Sources */,
 				C8FF0CE31A93303E00255BAB /* AppDelegate.m in Sources */,
 				C86336E21A94415400CF75AF /* AboutViewController.m in Sources */,
 				C8FF0CE01A93303E00255BAB /* main.m in Sources */,
