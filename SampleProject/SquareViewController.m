@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 Woo Soft. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SquareViewController.h"
 
-@interface ViewController ()
+@interface SquareViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *ValueEntry;
 @property (weak, nonatomic) IBOutlet UITextField *ResultEntry;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *Selection;
@@ -16,7 +16,7 @@
 
 @end
 
-@implementation ViewController
+@implementation SquareViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -33,13 +33,13 @@
     [_ValueEntry resignFirstResponder];
     double i;
     if ([_Selection selectedSegmentIndex] == 0){
-        i=[[_ValueEntry text] intValue];
-        i=(i/2)*(i/2)*3.1415926;
+        i=[[_ValueEntry text] doubleValue];
+        i=i*i;
         [_ResultEntry setText:[NSString stringWithFormat:@"%f", i]];
     }
     if ([_Selection selectedSegmentIndex] == 1){
-        i=[[_ValueEntry text] intValue];
-        i=i*i*3.1415926;
+        i=[[_ValueEntry text] doubleValue];
+        i=(i*i)/2;
         [_ResultEntry setText:[NSString stringWithFormat:@"%f", i]];
     }
     
